@@ -1,0 +1,24 @@
+.container {
+    display: grid | inline-grid;
+}
+
+body {
+    align-items: center;
+    margin: 10em;
+    background-color: rgb(243, 244, 236);
+}
+
+h1 {
+    font-family: Geneva;
+    color: rgb(105, 122, 171);
+    justify-content: center;
+}
+
+h4 {
+    color: rgb(225, 189, 105)
+}
+
+main {
+    padding: 20px;
+    border: grey 1px solid;
+}

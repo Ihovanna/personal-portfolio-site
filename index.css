@@ -1,0 +1,63 @@
+body {
+    font-family: Geneva;
+    background-color: rgb(246, 249, 249);
+}
+
+.container {
+    width: 100%;
+    height: 98vh;
+    display: inline-grid;
+    grid-template-columns: 80px 250px 1fr 1fr 80px;
+    grid-template-rows: 35px 1.2fr 1fr 35px;
+    grid-auto-flow: row;
+}
+
+a, #about-tab, #portfolio-tab {
+    font-family: Geneva;
+    font-size: small;
+    font-weight: 500;
+    color: grey;
+    text-decoration: none;
+}
+
+.navigation {
+    grid-column-start: 2;
+    grid-row-start: 2;
+    width:250px;
+    text-align: center;
+    padding-bottom: 3vh;
+}
+
+.navigation ul li a:hover {
+    color:rgb(184, 184, 184)
+}
+
+.navigation ul {
+    text-align: auto;
+    padding-left: 0vw;
+}
+
+.navigation ul li a {
+    display: inline-block;
+    padding: 0px 0.4vw;
+}
+
+.container #about-tab{
+    grid-column-start: 3;
+    justify-self: center;
+    align-self: center;
+}
+.container  #about-me:hover{
+    text-decoration:underline;
+}
+
+.container #portfolio-tab{
+    grid-column-start: 4;
+    justify-items: center;
+    justify-self: center;
+    align-self: center;
+}
+
+.container #portfolio:hover{
+    text-decoration:underline;
+}
